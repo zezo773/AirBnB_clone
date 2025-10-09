@@ -80,7 +80,7 @@ bb4f4b81-7757-460b-9263-743c9ea6fef6
 ["[User] (bb4f4b81-7757-460b-9263-743c9ea6fef6) {'id': '...', 'name': 'Betty'}"]
 (hbnb) destroy User bb4f4b81-7757-460b-9263-743c9ea6fef6
 (hbnb) quit
-
+```
 
 ## Built with :gear:
 python3 (3.4.3)
