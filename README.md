@@ -1,6 +1,6 @@
 # 🏠 AirBnB Clone - The Console
 
-![AirBnB Logo](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png)
+![AirBnB Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk8Z5-S5pe_VZ-7RmzBSYZxPN4g4sBfBEENp7-s2XSFuUWltk-FUYqvr06FgHI9lgXl7w&usqp=CAU)
 
 This project is part of the **AirBnB Clone** series.  
 It focuses on implementing the **BaseModel class**, object serialization/deserialization, and a **command-line interface (CLI)** to manage AirBnB objects.
