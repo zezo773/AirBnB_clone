@@ -1,0 +1,101 @@
+.container .places {
+  margin-top: 30px;
+}
+
+.container .places h1 {
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.container .places {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .places article {
+  width: 390px;
+  border: 1px solid #ff5a5f;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.container .places article h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.container .places article .price_by_night {
+  color: #ff5a5f;
+  border: solid 4px #ff5a5f;
+  min-width: 60px;
+  height: 60px;
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .places article .information {
+  height: 80px;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container .places article .information > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
+  height: 90%;
+  text-align: center;
+}
+
+.container .places article .information > div .icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+.container .places article .information .max_guest .icon {
+  background-image: url(../images/icon_group.png);
+}
+.container .places article .information .number_rooms .icon {
+  background-image: url(../images/icon_bed.png);
+}
+.container .places article .information .number_bathrooms .icon {
+  background-image: url(../images/icon_bath.png);
+}
+
+.container .places article .user {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.container .places article .description {
+  width: 100%;
+  margin-top: 10px;
+  line-height: 1.4;
+}
